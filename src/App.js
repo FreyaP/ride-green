@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <img src={models} alt="Tesla Model S" className="respomnsive" />
+      <img src={models} alt="Tesla Model S" className="responsive" />
     </div>
   );
 }
