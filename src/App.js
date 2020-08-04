@@ -6,6 +6,7 @@ import AboutUs from "./AboutUs";
 import teslawet from "./images/teslawet.png";
 import bclake from "./images/bclake.png";
 import charging from "./images/charging.png";
+import WhyUs from "./WhyUs";
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <img src={models} alt="Tesla Model S" className="responsive" />
       <WhatWeDo />
+      <WhyUs />
       <div className="row">
         <div className="col-4">
           <AboutUs title="Sustainability" img={teslawet}/>
