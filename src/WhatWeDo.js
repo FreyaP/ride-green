@@ -10,14 +10,12 @@ return (
         Sustainable, zero emission travel around the Sea To Sky and British Columbia.
     </li>
     <li>
-        Your socially reposnsible option to help protect the environment you play in.
+        Your socially reposnsible option to help protect the environment you love to play in.
     </li>
     <li>
     Customizable shuttle trips that can off set your travel.
     </li>
 </ul>
-<h3>
-    Prevent 27.63kg of C02 from being released with one trip from YVR to Whistler
-</h3>
+
     </div>
 )}

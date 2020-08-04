@@ -1,7 +1,27 @@
 .WhatWeDo {
+    
+    margin-top: 20px;
+}
+.WhatWeDo h1 {
     text-align: center;
-    margin-top: 10px;
 }
 .WhatWeDo ul {
     list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.WhatWeDo .fact {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #F1F1F1;
+    background-color: #615D5D;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.WhatWeDo p {
+    font-size: 14px;
+    color: #615D5D;
 }
