@@ -8,6 +8,7 @@ import bclake from "./images/bclake.png";
 import charging from "./images/charging.png";
 import WhyUs from "./WhyUs";
 
+
 import './App.css';
 
 function App() {
@@ -16,7 +17,14 @@ function App() {
       <Header />
       <img src={models} alt="Tesla Model S" className="responsive" />
       <WhatWeDo />
-      <WhyUs />
+      <div className="row">
+        <div className="col-6">
+        <WhyUs section="Safety" />
+        </div>
+        <div className="col-6">
+        <WhyUs section="Guest Experience" />
+        </div>
+      </div>
       <div className="row">
         <div className="col-4">
           <AboutUs title="Sustainability" img={teslawet}/>

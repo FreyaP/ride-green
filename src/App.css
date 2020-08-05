@@ -7,3 +7,6 @@
     width: 100%;
     height: auto;
 }
+.App .col-6 {
+    padding: 0px;
+}

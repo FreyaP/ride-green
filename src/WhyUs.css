@@ -1,18 +1,22 @@
 .WhyUs {
-    padding: 10px;
-    background-color: #5A6268;
-    color: #FFFFFF;
+    padding: 20px;
+    //background-color: #5A6268;
+    margin-bottom: 20px;
+    
+}
+.WhyUs h4 {
+    text-align: center;
     margin-bottom: 20px;
 }
-
-.WhyUs h4 {
-    
-}
-.WhyUs ul {
-    list-style: none;
-    padding: 10px;
-    
-}
-.WhyUs li {
+.WhyUs p {
     font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+
+}
+.WhyUs .icon {
+    display: block;
+    margin: auto;
+    color: #5A6268;
+    
 }

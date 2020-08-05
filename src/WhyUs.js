@@ -1,43 +1,33 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCar, faUserTie, faStar } from "@fortawesome/free-solid-svg-icons";
 import "./WhyUs.css";
 
-export default function WhyUs() {
+export default function WhyUs(props) {
+    const iconMapping = {
+        "car": faCar,
+        "driver": faUserTie,
+        "star": faStar
+    };
+    
     return (
-        <div className="row WhyUs">
-           <div className="col-6">
-               <h4>Safety</h4>
+        <div className="WhyUs">
+               <h4>{props.section}</h4>
                <div className="row">
-               <ul>
-                   <li>
-                       Intelligent 4 wheel drive system
-                   </li>
-                   <li>
-                       Experienced, professional and knowledgables drivers
-                   </li>
-                   <li>
-                       Brand new 5 star safety rating on all vehicles
-                   </li>
-               </ul>
-               </div>
-            </div> 
-            <div className="col-6">
-
-              <h4> Guest Experience </h4>
-              <ul>
-                  <li>
-                    On board wifi
-                  </li>
-                  <li>
-                      Ipads and charging ports
-                  </li>
-                  <li>
-                      Comfort Amenities
-                  </li>
-                  <li>
-                      Door to door service with optional tour or convenience stops
-                  </li>
-              </ul>
-            </div>
+                   <div className="col-4">
+                       <FontAwesomeIcon icon={faCar} size="4x" className="icon" />
+                       <p>Intelligent 4-wheel drive</p>
+                    </div>
+                    <div className="col-4">
+                       <FontAwesomeIcon icon={faUserTie} size="4x" className="icon" />
+                       <p>Experienced, professional drivers</p>
+                    </div>
+                    <div className="col-4">
+                       <FontAwesomeIcon icon={faStar} size="4x" className="icon" />
+                       <p>5 Star safety rated vehicles</p>
+                    </div>
+                </div>
+            
         
         </div>
     )
