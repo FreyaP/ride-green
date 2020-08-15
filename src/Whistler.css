@@ -1,6 +1,10 @@
 .Whistler {
     margin-top: 35px;
 }
+.Whistler h2 {
+    text-align: center;
+    
+}
 
 .Whistler .map {
     
