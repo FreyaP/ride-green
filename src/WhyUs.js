@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCar, faUserTie, faStar, faWifi, faBinoculars, faShoppingBag } from "@fortawesome/free-solid-svg-icons";
+import { faCar, faUserTie, faStar, faWifi, faBinoculars, faShoppingBag, faClock } from "@fortawesome/free-solid-svg-icons";
 import "./WhyUs.css";
 
 export default function WhyUs(props) {
@@ -36,8 +36,8 @@ export default function WhyUs(props) {
                        <p>Optional add ons for sightseeing or convenience</p>
                     </div>
                     <div className="col-4">
-                       <FontAwesomeIcon icon={faShoppingBag} size="4x" className="icon" />
-                       <p>5 Star safety rated vehicles</p>
+                       <FontAwesomeIcon icon={faClock} size="4x" className="icon" />
+                       <p>Available 24 hours a day, 7 days a week</p>
                     </div>
                 </div>
             </div>

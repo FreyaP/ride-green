@@ -1,6 +1,5 @@
 .WhyUs {
     padding: 25px;
-    //background-color: #5A6268;
     margin-bottom: 20px;
     
 }
@@ -18,7 +17,9 @@
     display: block;
     margin: 0 auto;
     color: #5A6268;
+    transition: 300ms ease-in-out;
 }
-.WhyUs .col-6 {
-    
+.WhyUs .icon:hover {
+    color: #6C757D;
+    cursor: pointer;
 }

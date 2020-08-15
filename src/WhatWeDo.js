@@ -4,18 +4,14 @@ import "./WhatWeDo.css";
 export default function WhatWeDo() {
 return (
     <div className="WhatWeDo">
-<h1>Go Green, Ride Green. </h1>
-<ul>
-    <li>
+<h1>Ride Green </h1>
+<p>
         Sustainable, zero emission travel around the Sea To Sky and British Columbia.
-    </li>
-    <li>
-        Your socially reposnsible option to help protect the environment you love to play in.
-    </li>
-    <li>
-    Customizable shuttle trips that can off set your travel.
-    </li>
-</ul>
+    
+        Ride Green is your socially reposnsible option that helps protect the environment you love to play in.
+    
+    We deliver customizable, private shuttle trips that take you to the mountains, the city or wherever your next journey may lead you.
+    </p>
 
     </div>
 

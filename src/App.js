@@ -7,6 +7,7 @@ import teslawet from "./images/teslawet.png";
 import bclake from "./images/bclake.png";
 import charging from "./images/charging.png";
 import WhyUs from "./WhyUs";
+import Whistler from "./Whistler";
 
 
 import './App.css';
@@ -18,10 +19,7 @@ function App() {
       <img src={models} alt="Tesla Model S" className="responsive" />
       <WhatWeDo />
       <div className="row">
-        
         <WhyUs  />
-        
-        
       </div>
       <div className="row">
         <div className="col-4">
@@ -34,6 +32,7 @@ function App() {
           <AboutUs title="Fleet" img={charging}/>
         </div>
       </div>
+      <Whistler />
       </div>
   );
 }
