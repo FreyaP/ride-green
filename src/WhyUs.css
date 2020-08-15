@@ -1,5 +1,5 @@
 .WhyUs {
-    padding: 20px;
+    padding: 25px;
     //background-color: #5A6268;
     margin-bottom: 20px;
     
@@ -16,7 +16,9 @@
 }
 .WhyUs .icon {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     color: #5A6268;
+}
+.WhyUs .col-6 {
     
 }

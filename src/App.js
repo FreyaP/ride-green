@@ -18,12 +18,10 @@ function App() {
       <img src={models} alt="Tesla Model S" className="responsive" />
       <WhatWeDo />
       <div className="row">
-        <div className="col-6">
-        <WhyUs section="Safety" />
-        </div>
-        <div className="col-6">
-        <WhyUs section="Guest Experience" />
-        </div>
+        
+        <WhyUs  />
+        
+        
       </div>
       <div className="row">
         <div className="col-4">
