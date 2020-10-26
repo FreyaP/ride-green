@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "./Header";
-import models from "./images/models.png";
+import Sea2Sky from "./images/Sea2Sky.png";
 import WhatWeDo from "./WhatWeDo";
 import AboutUs from "./AboutUs";
 import teslawet from "./images/teslawet.png";
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <img src={models} alt="Tesla Model S" className="responsive" />
+      <img src={Sea2Sky} alt="Tesla Model S" className="responsive" />
       <WhatWeDo />
       <div className="row">
         <WhyUs  />

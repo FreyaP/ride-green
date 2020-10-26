@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCar, faUserTie, faStar, faWifi, faBinoculars, faShoppingBag, faClock } from "@fortawesome/free-solid-svg-icons";
+import { faCar, faUserTie, faStar, faWifi, faBinoculars, faClock } from "@fortawesome/free-solid-svg-icons";
 import "./WhyUs.css";
 
 export default function WhyUs(props) {
