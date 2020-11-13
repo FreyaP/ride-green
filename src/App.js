@@ -9,14 +9,13 @@ import charging from "./images/charging.png";
 import WhyUs from "./WhyUs";
 
 
-
 import './App.css';
+// <img src={Trees} alt="Tesla Model S" className="responsive" />
 
 function App() {
   return (
     <div className="App">
       <Header />
-
       
       <WhatWeDo />
       <div className="row">

@@ -4,9 +4,14 @@
     
 }
 .App .responsive {
+    background-image: url(images/Trees.png);
     width: 100%;
     height: auto;
+    background-position: center;
+    
+    
 }
 .App .col-6 {
     padding: 0px;
 }
+

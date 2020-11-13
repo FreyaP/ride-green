@@ -5,6 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Sea2Sky from "./images/Sea2Sky.png";
 import "./Header.css";
 
+
 export default function Header() {
 return (
 <div className="header">
@@ -33,4 +34,7 @@ return (
 </Navbar>
 <img src={Sea2Sky} alt="Sea To Sky" className="responsive hero-image" />
 </div>
-)}
+)
+
+
+}
