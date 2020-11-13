@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Sea2Sky from "./images/Sea2Sky.png";
 import "./Header.css";
 
 export default function Header() {
@@ -30,5 +31,6 @@ return (
   </Navbar.Collapse>
   
 </Navbar>
+<img src={Sea2Sky} alt="Sea To Sky" className="responsive hero-image" />
 </div>
 )}

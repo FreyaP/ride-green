@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from "./Header";
-import Sea2Sky from "./images/Sea2Sky.png";
+
 import WhatWeDo from "./WhatWeDo";
 import AboutUs from "./AboutUs";
 import teslawet from "./images/teslawet.png";
 import bclake from "./images/bclake.png";
 import charging from "./images/charging.png";
 import WhyUs from "./WhyUs";
-import Whistler from "./Whistler";
+
 
 
 import './App.css';
@@ -16,7 +16,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <img src={Sea2Sky} alt="Tesla Model S" className="responsive" />
+
+      
       <WhatWeDo />
       <div className="row">
         <WhyUs  />
@@ -32,7 +33,7 @@ function App() {
           <AboutUs title="Fleet" img={charging}/>
         </div>
       </div>
-      <Whistler />
+      
       </div>
   );
 }

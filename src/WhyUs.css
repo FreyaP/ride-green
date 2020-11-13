@@ -8,7 +8,7 @@
     margin-bottom: 20px;
 }
 .WhyUs p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     margin-top: 8px;
 
@@ -17,7 +17,7 @@
     display: block;
     margin: 0 auto;
     color: #5A6268;
-    transition: 300ms ease-in-out;
+    transition: 200ms ease-in-out;
 }
 .WhyUs .icon:hover {
     color: #6C757D;
